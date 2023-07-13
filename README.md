@@ -1,42 +1,52 @@
 # Statistics and Data Analysis
 
-This repository is an academic project part of the Statistics and Data Analysis course in the MS.c studies in Computer Science Reichman university. It includes four Jupyter notebooks that cover various topics in statistics and data analysis.
+This repository serves as a comprehensive resource for various topics in statistics and data analysis. It is an integral part of the curriculum for the "Statistics and Data Analysis" course in the M.Sc. studies in Computer Science at Reichman University.
 
-## Repository Overview
+## Repository Content
 
-Each notebook in the repository focuses on a distinct topic in statistics and data analysis, providing practical implementations and rich visualizations. The topics covered range from foundational concepts such as probability distributions and correlations to applied data analysis in the context of differential gene expression.
+The repository houses four distinct Jupyter notebooks, each delving into specific areas of statistics and data analysis. The notebooks include:
 
-### Distributions (`HW1_Distributions.ipynb`)
+### 1. Distributions (`HW1_Distributions.ipynb`)
 
-This notebook provides a comprehensive exploration of various probability distributions, both discrete and continuous. It includes discussions and practical examples of the normal, binomial, and Poisson distributions, among others. Furthermore, the notebook explores the concept of mixture distributions and provides an implementation of the Expectation-Maximization (EM) algorithm for fitting them.
+This notebook provides an in-depth exploration of probability distributions. Key highlights include:
 
-### Data Exploration and Visualization (`HW2_Data_exploration_and_visialization.ipynb`)
+- Discussion and implementation of both discrete and continuous probability distributions.
+- Detailed exploration of various distributions, including normal, binomial, and Poisson.
+- Examination of mixture distributions.
+- Practical implementation of the Expectation-Maximization (EM) algorithm for fitting mixture distributions.
 
-This notebook covers the critical first steps of any data analysis project: data exploration and visualization. It provides techniques for understanding the structure of data, identifying potential issues such as missing data and outliers, and transforming data as required. The notebook also showcases various data visualization techniques, including histograms, box plots, scatter plots, and heatmaps.
+### 2. Data Exploration and Visualization (`HW2_Data_exploration_and_visialization.ipynb`)
 
-### Correlations (`HW3_Correlations.ipynb`)
+This notebook concentrates on the initial yet crucial stages of data analysis: data exploration and visualization. It covers:
 
-This notebook delves into the concept of correlations, providing implementations to compute and interpret Pearson's correlation coefficient and Spearman's rank correlation coefficient. The notebook discusses the significance of these correlation measures and provides visualizations of correlation matrices and heatmaps.
+- Techniques for understanding the structure and composition of data.
+- Identification and handling of missing data and outliers.
+- Data transformation procedures.
+- A showcase of data visualization techniques such as histograms, box plots, scatter plots, and heatmaps.
 
-### Differential Gene Expression in Acute Myocardial Infraction (`HW4_Differential_Gene_Expression_in_Acute_Myocardial_Infraction.ipynb`)
+### 3. Correlations (`HW3_Correlations.ipynb`)
 
-This notebook is a detailed case study on analyzing gene expression data within the context of acute myocardial infraction. It covers the following steps:
+This notebook delves into the concept of correlations, covering:
 
-- **Data processing**: Loading the data, handling missing values, and preparing the data for analysis.
+- Calculation and interpretation of Pearson's correlation coefficient and Spearman's rank correlation coefficient.
+- Discussion on the significance and application of these correlation measures.
+- Visualizations including correlation matrices and heatmaps.
 
-- **High-level data analysis**: Provides a high-level overview of the data, including the number of genes profiled, the total number of samples, the number of samples in each class (M and H), and the number of columns (genes) left after removing those with missing values.
+### 4. Differential Gene Expression in Acute Myocardial Infraction (`HW4_Differential_Gene_Expression_in_Acute_Myocardial_Infraction.ipynb`)
 
-- **Gene expression visualization**: The notebook randomly selects 20 genes and provides a visual comparison of their expression levels in the two classes (M and H) using box plots.
+This notebook presents a detailed case study on analyzing gene expression data in the context of acute myocardial infarction. The notebook includes:
 
-The subsequent sections of the notebook cover more advanced topics such as normalization, statistical testing, and interpretation of the results. 
+- Data processing procedures: data loading, handling of missing values, and data preparation for subsequent analysis.
+- High-level data analysis: Overview of the dataset, including key statistics such as the number of genes profiled, total number of samples, and samples distribution across classes.
+- Gene expression visualization: A random selection of 20 genes are taken, and their expression levels across the two classes are visually compared using box plots.
 
-## Running the Notebooks
+## Usage
 
-Each notebook can be run independently. Make sure you have Jupyter Notebook installed and the required Python libraries specified in each notebook.
+To run the notebooks, ensure that Jupyter Notebook is installed on your system. Each notebook can be run independently as they are self-contained and provide all the necessary instructions and dependencies.
 
 ## Dependencies
 
-Ensure these libraries are installed in your Python environment to run the notebooks successfully:
+The notebooks use the following libraries, which should be installed in your Python environment:
 
 - Numpy
 - Pandas
@@ -46,10 +56,10 @@ Ensure these libraries are installed in your Python environment to run the noteb
 - Statsmodels
 - Scikit-learn
 
-## Contribution
+## Contributing
 
-This repository is an academic project created by Lior-Baruch. Contributions, issues, and feature requests are welcome!
+This repository was primarily created by Lior-Baruch as part of an academic project. Contributions, feature requests, and issues are always welcome!
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the terms of the MIT License.
