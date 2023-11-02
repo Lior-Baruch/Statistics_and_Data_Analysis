@@ -58,7 +58,7 @@ The notebooks use the following libraries, which should be installed in your Pyt
 
 ## Contributing
 
-This repository was primarily created by Lior-Baruch as part of an academic project. Contributions, feature requests, and issues are always welcome!
+This repository was created by Lior-Baruch as part of an academic project. Contributions, feature requests, and issues are always welcome!
 
 ## License
 
